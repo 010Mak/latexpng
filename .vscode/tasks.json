@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "-encoding", "UTF-8",
+        "-cp", "lib/jlatexmath-1.0.7.jar",
+        "-d", "bin",
+        "${workspaceFolder}/src/app/*.java"
+      ],
+      "group": "build",
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}

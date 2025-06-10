@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run MyProgram",
+      "mainClass": "app.MyProgram",
+      "vmArgs": "-cp \"bin${pathSeparator}lib/jlatexmath-1.0.7.jar\"",
+      "preLaunchTask": "build"
+    }
+  ]
+}
